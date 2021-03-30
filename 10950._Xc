@@ -1,0 +1,11 @@
+#include <stdio.h>
+#pragma warning (disable:4996)
+int main() {
+    int a,b,c,i;
+    scanf("%d", &a);
+    for (i = 0; i !=a; i++) {
+        scanf("%d %d", &b,&c);
+        printf("%d\n", b + c);
+    }
+}
+//앞 문제 그대로 조건이 설정되어 있는지 확인하세요^^
